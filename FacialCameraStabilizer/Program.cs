@@ -11,7 +11,7 @@ class Program
 
         try
         {
-            string json = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json"));
+            string json = File.ReadAllText(Path.Combine(System.IO.Directory.GetCurrentDirectory(), "config.json"));
             cameras = JsonSerializer.Deserialize<List<CameraConfig>>(json)
                       ?? throw new Exception("Failed to deserialize camera config.");
         }
