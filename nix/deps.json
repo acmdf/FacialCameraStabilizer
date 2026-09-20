@@ -1,0 +1,47 @@
+[
+  {
+    "pname": "AOApps.Dns.Multicast",
+    "version": "0.0.0",
+    "hash": "sha256-yPxPbWhecMclYFcZBelEDR6ywsvn1Zn5RZsY3JBduOQ="
+  },
+  {
+    "pname": "Common.Logging",
+    "version": "3.4.1",
+    "hash": "sha256-1xeblzYhQCKveUv6z8Z17Dp1P6KKdR8xGykl7tpqbQc="
+  },
+  {
+    "pname": "Common.Logging.Core",
+    "version": "3.4.1",
+    "hash": "sha256-XhZ4hnefxjEcQm6Ls/OFPZCDONFs6j/tM9CKQA8DCBo="
+  },
+  {
+    "pname": "IPNetwork2",
+    "version": "2.1.2",
+    "hash": "sha256-E6pmGR1k7cETugh2EWRtdksnzlkdYf4s4BSWI2yoTjs="
+  },
+  {
+    "pname": "Makaretu.Dns",
+    "version": "2.0.1",
+    "hash": "sha256-zeIKCov4J6rKfbgsre0hEDVoFyHVGsrRAf/izZqTytA="
+  },
+  {
+    "pname": "Microsoft.NETCore.Platforms",
+    "version": "1.1.0",
+    "hash": "sha256-FeM40ktcObQJk4nMYShB61H/E8B7tIKfl9ObJ0IOcCM="
+  },
+  {
+    "pname": "NETStandard.Library",
+    "version": "1.6.1",
+    "hash": "sha256-iNan1ix7RtncGWC9AjAZ2sk70DoxOsmEOgQ10fXm4Pw="
+  },
+  {
+    "pname": "SimpleBase",
+    "version": "1.3.1",
+    "hash": "sha256-FtRIcfLYXxUftEhq8kHgNNkahde6Fv2hPVGZNezCW1Y="
+  },
+  {
+    "pname": "Tmds.LibC",
+    "version": "0.2.0",
+    "hash": "sha256-vUIF8ZWGQ3cIT7cWIttbhHM4RliU9uly/BQfezLm5/Q="
+  }
+]
