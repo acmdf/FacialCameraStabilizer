@@ -35,17 +35,17 @@
               let
                 dotnet = pkgs.dotnetCorePackages.dotnet_10;
               in
-              pkgs.buildDotnetModule (finalAttrs: rec {
+              pkgs.buildDotnetModule (finalAttrs: {
 
                 src = pkgs.fetchFromGitHub {
-                  owner = "Sebane1";
+                  owner = "acmdf";
                   repo = "FacialCameraStabilizer";
-                  rev = "5ff4da6b9e786483e64d2fcb7e57b2a677df0646"; # refactor/avalonia
-                  hash = "sha256-0P2eMqRHSpwz5iFS1K7J5o3qGwDJItT+IsNWPEUcClc=";
+                  rev = "3e57ef29588d6651dbdde91d49286f045d049979";
+                  hash = "sha256-cSbGrikj5Jpmh80M3AoRu3h83IV6GGvWjrjMq8MhH4Y=";
                   fetchSubmodules = true;
                 };
 
-                version = "5.4.5.0";
+                version = "0.0.1.0";
                 pname = "facialcamerastabilizer";
 
                 nugetDeps = ./nix/deps.json;
